@@ -325,9 +325,20 @@ img {
 
 
 .clients-item {
-  border: 1px solid #AFB1B8;
+  border: 1px solid var(--socials-color);
   border-radius: 4px;
   padding: 16px 32px;
+  color: var(--socials-color);
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  color: var(--accent-color);
+  stroke: var(--accent-color);
 }
 /* footer */
 .logo-footer {
@@ -452,9 +463,7 @@ img {
   color: var(--socials-color);
   background-color: var(--main-white-color);
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-}
+ }
 
 .socials-icon {
   fill: currentColor;
